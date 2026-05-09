@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('Build and List') {
             steps {
-                echo 'Running from the Jenkinsfile  on main branch in Git!'
-                sh 'ls -R'
+                echo 'Running from the Jenkinsfile  on dev branch in Git!'
+                sh 'ls '
             }
         }
     }
